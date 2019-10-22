@@ -2,9 +2,9 @@
 Welcome to the Camptastic | Place for a dream
 ----------
 Technology :
-- Bootsrap
+- Bootsrap v3.3.7
 - jQuery
-- Node
-- Express
+- NodeJS
+- ExpressJS
 - MongooDB
 ----------
