@@ -1,5 +1,5 @@
-# Camptastic
-Welcome to the Camptastic
+# Camptastic v1.0
+Welcome to the Camptastic | Place for a dream
 ----------
 Technology :
 - Bootsrap
@@ -7,3 +7,4 @@ Technology :
 - Node
 - Express
 - MongooDB
+----------
