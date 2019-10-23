@@ -1,5 +1,6 @@
 <% include partials/header %>
 <h1>This is campgrounds page</h1>
+<a href="/campgrounds/new">Add New Campground</a>
 <% for(i=0; i < campgrounds.length; i++) { %>
     <div>
         <h4><%= campgrounds[i]["name"] %></h4>
