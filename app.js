@@ -11,16 +11,49 @@ app.set("view engine", "ejs");
 var campgrounds = [
     {
         name: "Ranu Kumbolo",
-        image: "/img/RanuKumbolo.jpg"
+        city: "Malang",
+        image: "/img/ranu-kumbolo.jpg"
     },
     {
         name: "Panderman",
-        image: "/img/Panderman.jpg"
+        city: "Malang",
+        image: "/img/panderman.jpg"
     },
     {
         name: "Coban Talun",
-        image: "/img/CobanTalun.jpeg"
-    }
+        city: "Malang",
+        image: "/img/coban-talun.jpeg"
+    },
+    {
+        name: "Ranca Upas",
+        city: "Bandung",
+        image: "/img/ranca-upas.jpg"
+    },
+    {
+        name: "Gunung Puntang",
+        city: "Bandung",
+        image: "/img/puntang.jpg"
+    },
+    {
+        name: "Situ Cileunca",
+        city: "Bandung",
+        image: "/img/situ-cileunca.jpg"
+    },
+    {
+        name: "Situ Cisanti",
+        city: "Bandung",
+        image: "/img/situ-cisanti.jpg"
+    },
+    {
+        name: "Ranca Upas",
+        city: "Bandung",
+        image: "/img/ranca-upas.jpg"
+    },
+    {
+        name: "Gunung Putri",
+        city: "Bandung",
+        image: "/img/gunung-putri.jpg"
+    },
 ]
 
 app.get("/", function (req, res) {
@@ -35,7 +68,8 @@ app.post("/campgrounds", function(req, res) {
     //get data from form and add to campgrounds array
     var name = req.body.name;
     var image = req.body.image;
-    var newCampground = {name: name, image: image}
+    var city = req.body.image;
+    var newCampground = {name: name, image: image, city: city}
     campgrounds.push(newCampground);
     //redirect back to campgrounds page
     res.redirect("/campgrounds");
