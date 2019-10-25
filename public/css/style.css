@@ -15,3 +15,8 @@
     box-sizing: border-box;
     padding: 5px 15px;
 }
+
+.form-new {
+    width: 30%;
+    margin: 25px auto;
+}
