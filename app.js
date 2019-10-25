@@ -2,6 +2,7 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var publicDir = require("path").join(__dirname, "/public");
+var mongoose = require("mongoose");
 
 app.use(express.static(publicDir));
 app.use(bodyParser.urlencoded({extended: true}));
