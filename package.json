@@ -4,10 +4,10 @@
   "description": "Camptastic, Place for a dream",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
-    "http-server": "^0.11.1",
+    "express": "^4.18.2",
+    "http-server": "^0.11.2",
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.7",
     "request": "^2.88.0"
